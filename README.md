@@ -10,3 +10,6 @@ If you have any suggestions on modifications to the python code or any of it rea
 Contact Info:
 Email: zacharykennedy8@gmail.com
       Note: please use "Launcer Project" in the subject if you email me. I rarely check my email but I would be sure to read and write back if I see that.
+
+Also you will need to install eel from pip or this repository to run the backend from the JavaScript to python.
+https://github.com/ChrisKnott/Eel
