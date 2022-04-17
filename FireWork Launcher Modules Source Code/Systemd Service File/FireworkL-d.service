@@ -1,0 +1,14 @@
+[Unit]
+Description=Firework Launcher
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 Firework_Launcher.py
+WorkingDirectory=/home/zkennedy137/Desktop/application/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
