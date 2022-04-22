@@ -21,3 +21,7 @@ Email: zacharykennedy8@gmail.com
 
 Also you will need to install eel from pip or this repository to run the backend from the JavaScript to python.
 https://github.com/ChrisKnott/Eel
+
+
+A short proof of concept video:
+https://www.youtube.com/shorts/bcxAyih5HK0
