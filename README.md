@@ -1,5 +1,13 @@
-This software is not based on any dependacies beside what is included in it's root directory. This means that in the future so long as python is still working
+This software is not based on any dependacies beside what is included in it's root directory and a few python Modules that can be installed with pip3. This means that in the future so long as python is still working
 and doesn't remove any modules or compatibility it should work forever.
+
+These are the Modules Needed for this setup:
+1. time
+2. os
+3. eel (as mentioned later in this Readme
+4. board
+5. busio
+6. adafruit_mcp230xx.mcp23017
 
 This software was designed for my needs as I wanted to build a firework launcher. My goal was to come in at about half or very close to half the cost of a
 professional grade Launching system. Either that or the radio controlled ones on amazon. However this software can and will run as just a way to control GPIO/GPIO
