@@ -24,23 +24,6 @@ for i in range(16):
     exec(pinList[i])
 
 pin = "pin"
-value = ".value = True"
-pinName=""
-pinList=[]
-for i in range(16):
-    pin+=str(i)
-    pinName+=str(pin)
-    pinName+=str(value)
-    pinList.append((pinName))
-    pin = ""
-    value = ""
-    pin = "pin"
-    value = ".value = True"
-    pinName=""
-for i in range(16):
-    exec(pinList[i])
-
-pin = "pin"
 getPin = " = mcp.get_pin("
 getPinEnd = ") "
 pinName = ""
