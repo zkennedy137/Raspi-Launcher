@@ -7,14 +7,14 @@ import busio
 from digitalio import Direction
 from adafruit_mcp230xx.mcp23017 import MCP23017
 i2c = busio.I2C(board.SCL, board.SDA)
-#from Bus0x20 import *
-#from ConvertPin0x21 import *
-#from ConvertPin0x22 import *
-#from ConvertPin0x23 import *
-#from ConvertPin0x24 import *
-#from ConvertPin0x25 import *
-#from ConvertPin0x26 import *
-#from ConvertPin0x27 import *
+from Bus0x20 import *
+from ConvertPin0x21 import *
+from ConvertPin0x22 import *
+from ConvertPin0x23 import *
+from ConvertPin0x24 import *
+from ConvertPin0x25 import *
+from ConvertPin0x26 import *
+from ConvertPin0x27 import *
 
 def fire(pin):
     pin.value = False
