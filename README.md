@@ -1,3 +1,6 @@
+Bugs:
+currently there is a bug where relays may turn on until you click the cue button and let it trigger once
+
 This software is not based on any dependacies beside what is included in it's root directory and a few python Modules that can be installed with pip3. This means that in the future so long as python is still working
 and doesn't remove any modules or compatibility it should work forever.
 
