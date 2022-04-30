@@ -1,3 +1,8 @@
+Notes: There is a small amount of support for an LCD Screen such as this one made by Sunfounder (Link Below)
+https://www.amazon.com/gp/product/B01GPUMP9C/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1
+
+However the support is minimal it will display a welcome message when script is initialized and after that tell you when a cue is fired and which number 
+
 This software is not based on any dependacies beside what is included in it's root directory and a few python Modules that can be installed with pip3. This means that in the future so long as python is still working
 and doesn't remove any modules or compatibility it should work forever.
 
