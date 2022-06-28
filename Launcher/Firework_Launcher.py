@@ -633,4 +633,4 @@ def ResetScreen():
 @eel.expose
 def ExitScript():
     exit()
-eel.start('index.html', host='192.168.0.2', port=80)
+eel.start('index.html', host='YOUR SERVER IP HERE', port=80)
