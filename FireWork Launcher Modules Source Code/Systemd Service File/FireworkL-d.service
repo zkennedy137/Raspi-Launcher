@@ -3,6 +3,8 @@ Description=Firework Launcher
 After=network.target
 
 [Service]
+After=network-online.target
+Wants=network-online.target
 ExecStart=/usr/bin/python3 Firework_Launcher.py
 WorkingDirectory="Directory of the Firework_Launcher.py Script"
 StandardOutput=inherit
