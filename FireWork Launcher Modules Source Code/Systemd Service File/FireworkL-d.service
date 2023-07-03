@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/bin/python3 Firework_Launcher.py
-WorkingDirectory=/home/zkennedy137/Desktop/application/
+WorkingDirectory="Directory of the Firework_Launcher.py Script"
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
